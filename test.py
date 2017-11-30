@@ -1,10 +1,6 @@
-import telepot
 import requests
 import os
 
-token = "499941837:AAHtsM0IEGTFxyyf0c7pKcY4nRlEy6S3O3Q"
-offset = 0
-MBot = telepot.Bot(token)
 url = "http://clients.flux4test.ru/api/amo/leads/add?token=vupxqa59lxrmtccklzfz6ivh2hqt7gfv"
 
 file = open("123", 'w')
